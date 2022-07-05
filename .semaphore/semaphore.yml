@@ -12,7 +12,7 @@ blocks:
           commands:
             - checkout
             - sem-version java 1.8
-            - mvn -B package --file pom.xml
+            - mvn install
   - name: Browsertack
     task:
       secrets:
